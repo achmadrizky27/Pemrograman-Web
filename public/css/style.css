@@ -1,0 +1,159 @@
+/* ===================================
+                LAYOUT       
+   =================================== */
+/* File : layout/index.blade.php */
+body {
+    background-color: #0f172a;
+    overflow-x: hidden;
+}
+
+.navbar {
+    background-color: #0f172a;
+}
+.navbar .nav-link {
+    color: #ffffff;
+}
+.navbar .nav-link:hover {
+    color: #94a3b8;
+}
+.navbar .dropdown-item:hover {
+    background-color: #2b384b;
+    color: #ffffff;
+    transition: all 0.5s ease;
+    transform: translate(0px, 3px);
+}
+
+.footer .nav-link:hover {
+    transition: all 0.5s ease;
+    transform: translate(5px, 0px);
+}
+.footer .sosmedItem:hover {
+    background-color: #7dd3fc;
+    transition: all 0.5s ease;
+    transform: translate(5px, 0px);
+}
+
+/* File : layout/home.blade.php */
+.profileHome {
+    background-image: url("/img/layout/profileHome/background.jpg");
+    background-position: center;
+    background-size: cover;
+    padding-top: 13rem;
+    padding-bottom: 13rem;
+}
+.profileHome .btn-profileHome .btn:hover {
+    transition: all 0.5s ease;
+    transform: translate(0px, 3px);
+}
+
+.marquee-Layoutindex {
+    background-color: #0f172a;
+    color: #ffffff;
+    padding: 0.5rem;
+}
+
+.information {
+    background-color: #1e293b;
+}
+.information .container {
+    padding: 4rem;
+}
+.information .btn:hover {
+    transition: all 0.5s ease;
+    transform: translate(0px, 5px);
+}
+
+/* =========> File : praktikumsite.blade.php */
+.praktikumSite {
+    background-image: url("/img/layout/practicesite/background.jpg");
+    background-position: center;
+    background-size: cover;
+    padding-top: 15rem;
+    padding-bottom: 15rem;
+}
+
+/* =========> File : ecourse.blade.php */
+.carouselEcourse {
+    padding-bottom: 3rem;
+    padding-top: 5rem;
+}
+.lamanEcourse {
+    background-color: #0f172a;
+}
+.lamanEcourse .contentPraktikum {
+    padding: 5rem;
+}
+
+/* ======================================= 
+                  MAREKTPLACE
+   =======================================*/
+
+/* File : login.blade.php */
+.signIn {
+    background-image: url("/img/marketplace/login/background.jpg");
+    background-position: center;
+    background-size: cover;
+
+    padding-top: 8rem;
+    padding-bottom: 6rem;
+}
+.signIn .row {
+    padding: 3rem;
+}
+.formSignin .form-floating:focus-within {
+    z-index: 2;
+}
+.formSignin input {
+    margin-radius: 0;
+    margin-bottom: -1px;
+}
+
+/* File : register.blade.php */
+.register {
+    background-image: url("/img/marketplace/login/background.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+.register .row {
+    padding: 6rem;
+}
+.formRegister .form-floating:focus-within {
+    z-index: 2;
+}
+.formRegister input {
+    border-radius: 0;
+    margin-bottom: -1px;
+}
+
+/* File : dashboard.blade.php */
+.profileDashboard {
+    background-color: #075985;
+    padding-top: 6rem;
+}
+/* Tag Product */
+.tagProduct {
+    background-color: #075985;
+    margin-top: 2rem;
+    padding-top: 6rem;
+    padding-bottom: 8rem;
+}
+.tagProduct .categoryItem:hover {
+    transform: translate(0px, 5px);
+    transition: all 0.5s ease;
+}
+
+.profileDashboard .carousel-control-prev:hover {
+    transform: translate(10px, 0px);
+    transition: all 0.5s ease;
+}
+
+.profileDashboard .carousel-control-next:hover {
+    transform: translate(10px, 0px);
+    transition: all 0.5s ease;
+}
+.profileDashboard .componentCarousel {
+    padding-right: 8rem;
+    padding-bottom: 6rem;
+    padding-left: 8rem;
+}
